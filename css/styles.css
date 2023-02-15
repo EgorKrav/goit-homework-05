@@ -89,7 +89,7 @@ body {
     padding: 0;    
 }
 
-.header-item .active::after{
+.header-item .active::after {
     content: "";
     bottom: -1px;
     left: 0;
@@ -243,7 +243,6 @@ body {
     border-radius: 4px;
     background-color: var(--lightcloud-color);
     margin-bottom: 8px;
-
 }
 
 .features-item {
@@ -426,7 +425,7 @@ body {
     border: 1px solid var(--subtletext-color);
     border-radius: 4px;
     cursor: pointer;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-icon {
@@ -434,7 +433,7 @@ body {
     transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customers-list:hover ,
+.customers-list:hover,
 .customers-list:focus {
     border: 1px solid var(--pressedstate-color);
    
@@ -459,9 +458,6 @@ body {
     padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
-
-    
-    
 }
 
 .footer-logo {
@@ -502,7 +498,6 @@ body {
 }
 
 
-
 .soc-media {
     font-weight: 500;
     line-height: 1.5;
@@ -514,8 +509,6 @@ body {
 .social-med-list {
     display: flex;
     gap: 16px;
-    
-
 }
 
 
@@ -533,7 +526,6 @@ body {
 .media-list-link:hover,
 .media-list-link:focus {
     background-color: var(--success-color);
-    
 }
 
 
@@ -701,14 +693,12 @@ body {
     height: 24px;
     border-radius: 50%;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
- .modal-close-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-                 
- }
 
+ .modal-close-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);              
+}
 
 .modal-close:hover,
 .modal-close:focus {
@@ -718,6 +708,4 @@ body {
 .modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
     fill: var(--cloud-color);
-
-    
 }
